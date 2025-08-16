@@ -16,15 +16,15 @@ module.exports = {
 		envConfig: {}
 	},
 	onStart: async function ({ message }) {
-		const authorName = " ⩸_ 𝙽𝙸 𝚂 𝙰𝙽 _⩸ ";
+		const authorName = " ⩸_ 𝚁𝙰𝚈𝙷𝙰𝙽 𝙲𝙷𝙾𝚆𝙳𝙷𝚄𝚁𝚈 _⩸ ";
 		const ownAge = "『 ⩸_ 20 _⩸ 』";
-		const messenger = " //m.me/nisan.005";
-		const authorFB = " //www.facebook.com/profile.php?id=61576178781718";
+		const messenger = " //m.me/god.damn.rayhan";
+		const authorFB = " https://www.facebook.com/god.damn.rayhan";
 		const authorNumber = "017××××××98";
-		const Status = "⩸__ 𝚁𝙻𝚂 𝚆𝙷𝙸𝚃 𝙵𝙰𝚁𝙸𝚈𝙰__⩸";
+		const Status = "⩸__𝚂𝚒𝚗𝚐𝚕𝚎__⩸";
 		const urls = [
-"https://drive.google.com/uc?id=1a72QhBuup4I3IcYhDblJBe1D__fyIh4k",
-"https://drive.google.com/uc?id=1WPeoXpdO7OZ1y9NiyGgYdwsQawV21Oju"
+"https://i.postimg.cc/6Qzqvm1R/Screenshot-20250816-145821-Messenger.jpg",
+"https://i.postimg.cc/6Qzqvm1R/Screenshot-20250816-145821-Messenger.jpg"
 ];
 		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
@@ -50,8 +50,8 @@ module.exports = {
 \⏰彡𝑁𝑜𝑤 𝑇𝑖𝑚𝑒 : ${time}
 \🔰彡𝐴𝑛𝑦 𝐻𝑒𝑙𝑝 𝐶𝑜𝑛𝑡𝑎𝑐𝑡 : ${messenger}__⩸
 \📛彡𝐵𝑜𝑡 𝐼𝑠 𝑅𝑢𝑛𝑛𝑖𝑛𝑔 𝐹𝑜𝑟 : ${uptimeString}
-    𝑻𝒈:  //t.me/nisan_editz
-    𝑰𝒏𝒔𝒕𝒂:  //www.instagram.com/im_editz_x2.0?
+    𝑻𝒈:  //t.me/Rayhan
+    𝑰𝒏𝒔𝒕𝒂:  // instagram://user/?username=god_damn_rayhan
 \===============`,
 			attachment: await global.utils.getStreamFromURL(link)
 		});
